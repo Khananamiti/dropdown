@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <!-- CSS only-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Выпадающие списки | Нуралинова</title>
+</head>
+<body>
+  <h1 class="text-center">Выпадающие списки</h1>
+  <div class="b-example-divider"></div>
+
+  <section>
+    <h5 class="px-5">Выпадающий список №1 картинка:</h5>
+    <div class="container">
+      <img src="../dropdown/img/1.PNG" class="img-fluid" alt="Выпадающий список 1">
+    </div>
+    <hr>
+    <h5 class="px-5">Мой результат:</h5>
+    <!-- 1 Выпадающий список -->
+    <div class="d-flex flex-row gap-5 justify-content-center mb-5" style="height: 300px;">
+
+      <div class="p-2">
+        <div class="dropdown">
+          <button class="btn btn-secondary mb-1 dropdown-toggle show" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Кнопка выпадающего списка
+          </button>
+          <ul class="dropdown-menu pt-0 shadow show" aria-labelledby="dropdownMenuButton1" style="width: 280px;">
+            <form class="p-2 mb-2 bg-light border-bottom">
+              <li><input class="form-control" type="search" name="search" placeholder="Type to filter..."></li>
+            </form>           
+            <li><a class="dropdown-item dropdown-item-gray" href="#"><i class="bi-circle-fill me-2" style="font-size: 8px; color: green;"></i>Action</a></li>
+            <li><a class="dropdown-item dropdown-item-gray" href="#"><i class="bi-circle-fill me-2" style="font-size: 8px; color: blue;"></i>Another action</a></li>
+            <li><a class="dropdown-item dropdown-item-gray" href="#"><i class="bi-circle-fill me-2" style="font-size: 8px; color: darkred;"></i>Something else here</a></li>
+            <li><a class="dropdown-item dropdown-item-gray" href="#"><i class="bi-circle-fill me-2" style="font-size: 8px; color: aquamarine;"></i>Separated link</a></li>            
+          </ul>
+        </div>
+      </div>
+      
+      <div class="p-2">
+        <div class="dropdown">
+          <button class="btn btn-secondary mb-1 dropdown-toggle show" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Кнопка выпадающего списка
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark pt-0 shadow show" aria-labelledby="dropdownMenuButton1" style="width: 280px;">
+            <form class="p-2 mb-2 bg-dark border-bottom border-dark">
+              <input class="form-control form-control-dark" type="text" name="search" placeholder="Type to filter...">
+            </form>           
+            <li><a class="dropdown-item dropdown-item-gray" href="#"><i class="bi-circle-fill me-2" style="font-size: 8px; color: green;"></i>Action</a></li>
+            <li><a class="dropdown-item dropdown-item-gray" href="#"><i class="bi-circle-fill me-2" style="font-size: 8px; color: blue;"></i>Another action</a></li>
+            <li><a class="dropdown-item dropdown-item-gray" href="#"><i class="bi-circle-fill me-2" style="font-size: 8px; color: darkred;"></i>Something else here</a></li>
+            <li><a class="dropdown-item dropdown-item-gray" href="#"><i class="bi-circle-fill me-2" style="font-size: 8px; color: aquamarine;"></i>Separated link</a></li>            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="b-example-divider"></div>
+  </section>
+
+  <section>
+    <h5 class="px-5">Выпадающий список №2 картинка:</h5>
+    <div class="container">
+      <img src="../dropdown/img/2.PNG" class="img-fluid" alt="Выпадающий список 2">
+    </div>
+    <hr>
+    <h5 class="px-5">Мой результат:</h5>    
+    <!-- 2 Выпадающий список -->
+    <div class="d-flex flex-row gap-5 justify-content-center mb-5" style="height: 300px;">
+
+      <div class="p-2">
+        <div class="dropdown">
+          <button class="btn btn-secondary mb-1 dropdown-toggle show" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Кнопка выпадающего списка
+          </button>
+          <ul class="dropdown-menu shadow show" aria-labelledby="dropdownMenuButton1" style="width: 200px;">
+            <li><a class="dropdown-item dropdown-item-gray" href="#"><i class="bi-files me-2"></i>Documents</a></li>
+            <li><a class="dropdown-item dropdown-item-gray" href="#"><i class="bi-image-fill me-2"></i>Photos</a></li>
+            <li><a class="dropdown-item dropdown-item-gray" href="#"><i class="bi-film me-2"></i>Movies</a></li>
+            <li><a class="dropdown-item dropdown-item-gray" href="#"><i class="bi-music-note-beamed me-2"></i>Music</a></li>
+            <li><a class="dropdown-item dropdown-item-gray" href="#"><i class="bi-joystick me-2"></i>Games</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item dropdown-item-danger" href="#"><i class="bi-trash me-2"></i>Trash</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="p-2">
+        <div class="dropdown">
+          <button class="btn btn-secondary mb-1 dropdown-toggle show" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+            Кнопка выпадающего списка
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark show" aria-labelledby="dropdownMenuButton1" style="width: 200px;">
+            <li><a class="dropdown-item" href="#"><i class="bi-files me-2"></i>Documents</a></li>
+            <li><a class="dropdown-item" href="#"><i class="bi-image-fill me-2"></i>Photos</a></li>
+            <li><a class="dropdown-item" href="#"><i class="bi-film me-2"></i>Movies</a></li>
+            <li><a class="dropdown-item" href="#"><i class="bi-music-note-beamed me-2"></i>Music</a></li>
+            <li><a class="dropdown-item" href="#"><i class="bi-joystick me-2"></i>Games</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"><i class="bi-trash me-2"></i>Trash</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="b-example-divider"></div>
+  </section>
+
+  <section>
+    <h5 class="px-5">Выпадающий список №3 картинка:</h5>
+    <div class="container">
+      <img src="../dropdown/img/3.PNG" class="img-fluid" alt="Выпадающий список 3">
+    </div>
+    <hr>
+    <h5 class="px-5">Мой результат:</h5>    
+    <!-- 3 Выпадающий список -->
+    <div class="d-flex flex-row justify-content-center" style="height: 300px;">
+
+      <div class="p-2">
+        <div class="dropdown-menu d-flex p-3 align-items-stretch rounded-3 shadow-lg" style="width: 600px;">
+          <!-- <button class="btn btn-secondary mb-1 dropdown-toggle show" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Кнопка выпадающего списка
+          </button> -->
+          <nav class="d-drid gap-2 col-8">
+            <a href="#" class="d-flex align-items-center btn btn-hover-light gap-3">
+              <i class="bi-image-fill" style="font-size: 32px;"></i>
+              <div >
+                <strong class="d-block">Features</strong>
+                <small>Take a tour through the product</small>
+              </div>
+            </a>
+            <a href="#" class="d-flex align-items-center btn btn-hover-light gap-3">
+              <i class="bi-question-circle" style="font-size: 32px;"></i>
+              <div >
+                <strong class="d-block">Support</strong>
+                <small>Get help from our support crew</small>
+              </div>
+            </a>
+
+          </nav>
+          <div class="col-4">...</div>
+            
+        </div>
+      </div>    
+
+    </div>
+
+    
+
+    <div class="b-example-divider"></div>
+  </section>  
+
+    <!-- JavaScript Bundle with Popper.js  -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
